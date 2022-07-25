@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .grid opan.................................................... */
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.grid2{
+    margin-left: 80px;
+}
+.grid3{
+    margin-top: 20px;
+    margin-left: 80px;
+    cursor: pointer;
+}
+
+.grid3 i{
+    padding: 10px;
+    font-size: 20px;
+    color: black;
+}
+.grid3 i:hover{
+ background-color: gray;
+ color: white;
+ border-radius: 50%;
+}
+.home{
+    font-size: 40px;
+    color: black;
+}
+.home2{
+    font-weight: bolder;
+   
+}
+/* nav item....................................................... */
+.allde{
+    background-color: aquamarine;
+    color: #000;
+}
+.preo li a{
+color: #000;
+font-weight: bolder;
+}
+.preo li a:hover{
+    color: red;
+    font-weight: bolder;
+    }
+.nav-item{
+    color: black;
+}
+.eko:hover{
+    color: red;
+}
+
+/*  main opan.....................................*/
+.main{
+    background-image: url("img-folder/ff.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: antiquewhite;
+   
+}
+.sale{
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 150px;
+    font-weight: bolder;
+}
+ .sale40{
+    color: brown;
+ }
+.year2022{
+    position: absolute;
+    margin-top:160px ;
+    margin-left: 110px;
+    font-size: 80px;
+    font-weight: bolder;
+    letter-spacing: 10px;
+}
+.collactio{
+    position: absolute;
+  margin-left: 110px;
+  margin-top: 220px;
+  font-size: 80px;
+  font-weight: bolder;
+}
+.hre{
+margin-top: 230px;
+    border: 4px solid gold;
+    width: 80px;
+}
+.cv{
+    margin-top: 80px;
+    margin-left: 120px;
+}
+
+/* main close/////////////////////////////////////////////// */
+
+/* section2 opan//////////////////////////////////////////// */
